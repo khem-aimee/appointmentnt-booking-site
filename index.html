@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva tu Cita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #6495ED; /* Cornflower Blue */
+            padding: 50px;
+        }
+        h2 {
+            color: #FAFA33; /* Lemon Yellow */
+            margin-bottom: 30px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .section {
+            background-color: #CCCCFF; /* Periwinkle */
+            padding: 20px;
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h3 {
+            color: #333;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 600px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            background: white;
+        }
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            .section {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>¡Elige el día que te viene mejor venir al experimento! <br> Recuerda que debes pedir la cita primero para la tarea y después para el EEG. Pincha "mostrar más" para que tengas toda la información</h2>
+
+    <div class="container">
+        <div class="section">
+            <h3>TAREA ATENCIÓN (Prof. Javier Pacios)</h3>
+            <iframe src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1wVYQlZCBQMuUxbOmOp_JUouUPcWO_eS3CNUoGnfLCPBuFDrJw3EM3yDfupLkc9ScGlgGNn4X2" frameborder="0"></iframe>
+        </div>
+        <div class="section">
+            <h3>EEG (Prof. Javier Pacios)</h3>
+            <iframe src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3T2TVX1WajMfM4qUgd4z7kgdPxmItqm-2f95oPnh0Cu_f1mxjhNnmWTL-bGRELKdETQoEprB9g" frameborder="0"></iframe>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
